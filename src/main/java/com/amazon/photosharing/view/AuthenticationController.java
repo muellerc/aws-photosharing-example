@@ -22,7 +22,6 @@ import java.util.List;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
-import com.amazon.photosharing.dao.Album;
 import com.amazon.photosharing.dao.User;
 import com.amazon.photosharing.facade.UserFacade;
 import com.amazon.photosharing.model.Filter;

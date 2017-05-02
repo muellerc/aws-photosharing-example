@@ -17,8 +17,6 @@
 package com.amazon.photosharing.facade;
 
 import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.function.Supplier;
 
 import javax.persistence.EntityManager;
@@ -33,8 +31,6 @@ import com.amazon.photosharing.dao.Role;
 import com.amazon.photosharing.dao.User;
 import com.amazon.photosharing.iface.ServiceFacade;
 import com.amazon.photosharing.utils.Security;
-import com.amazon.photosharing.utils.TokenGenerator;
-import com.amazon.photosharing.utils.TokenStorage;
 
 public class UserFacade extends ServiceFacade {
 

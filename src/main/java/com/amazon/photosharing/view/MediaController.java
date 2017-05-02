@@ -17,7 +17,6 @@
 package com.amazon.photosharing.view;
 
 import java.io.IOException;
-import java.lang.annotation.Documented;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

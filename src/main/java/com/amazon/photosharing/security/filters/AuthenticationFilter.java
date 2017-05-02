@@ -17,7 +17,6 @@
 package com.amazon.photosharing.security.filters;
 
 import com.amazon.photosharing.facade.TokenFacade;
-import com.amazon.photosharing.facade.UserFacade;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.Priority;

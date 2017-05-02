@@ -17,8 +17,10 @@
 package com.amazon.photosharing.model;
 
 public class Sort extends Property { 
-		
-	private boolean  _order;
+
+    private static final long serialVersionUID = 5803732232600104541L;
+
+    private boolean  _order;
 	
 	public Sort(String p_property, boolean p_asc) {
 		super(p_property);

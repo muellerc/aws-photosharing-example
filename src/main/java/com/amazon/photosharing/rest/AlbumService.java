@@ -17,12 +17,10 @@
 package com.amazon.photosharing.rest;
 
 import com.amazon.photosharing.dao.Album;
-import com.amazon.photosharing.dao.Media;
 import com.amazon.photosharing.facade.AlbumFacade;
 import com.amazon.photosharing.iface.ServiceFacade;
 import com.amazon.photosharing.model.SelectModel;
 import com.amazon.photosharing.rest.vo.AlbumResult;
-import com.amazon.photosharing.rest.vo.MediaResult;
 import com.amazon.photosharing.security.filters.Secured;
 import org.apache.http.HttpStatus;
 
@@ -67,7 +65,7 @@ public class AlbumService extends ServiceFacade {
     @Produces(MediaType.APPLICATION_JSON)
     @Secured
     public Response deleteAlbum(@PathParam("albumId") Long albumId) {
-        List<Long> albumList = new ArrayList();
+        List<Long> albumList = new ArrayList<Long>();
         albumList.add(albumId);
         _facade.deleteAlbums(albumList, true);
 

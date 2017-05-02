@@ -31,6 +31,8 @@ import java.io.Serializable;
 @XmlRootElement
 public class Token implements Serializable {
 
+    private static final long serialVersionUID = 3451570761620652741L;
+
     private Long id;
     private String userName;
     private String token;
